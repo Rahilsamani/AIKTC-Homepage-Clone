@@ -300,3 +300,207 @@ a {
   margin: 0 15px;
 }
 
+/* payment section */
+.payment-section {
+  background-image: url("https://cdn.razorpay.com/static/assets/paymentpages/light_desktop.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 25% 100%;
+  background-color: #fcfcfc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--razorpay-dark-blue);
+  font-family: "Mulish", sans-serif;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  border-left: 10px solid var(--razorpay-light-blue);
+}
+
+.payment-content {
+  width: 75%;
+  display: flex;
+  gap: 100px;
+}
+
+.payment-section-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.payment-title {
+  display: flex;
+  gap: 20px;
+  align-items: start;
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.payment-title div {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.18);
+}
+
+.payment-title img {
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+}
+
+.payment-heading {
+  font-size: 20px;
+}
+
+.blue-line {
+  height: 5px;
+  width: 30px;
+  background-color: var(--razorpay-light-blue);
+  margin-bottom: 10px;
+}
+
+.payment-list p {
+  color: var(--razorpay-dark-blue);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.payment-list li {
+  margin-left: 50px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.payment-new-course a {
+  color: var(--razorpay-light-blue);
+  font-size: 14px;
+}
+
+.payment-subheading {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.payment-share img {
+  cursor: pointer;
+  margin-right: 5px;
+  width: 25px;
+  height: 25px;
+}
+
+.payment-contact-content div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 5px;
+}
+
+.terms {
+  padding-bottom: 30px;
+  border-bottom: 2px solid #eeeeee;
+}
+
+.terms div p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.razorpay {
+  width: 70%;
+}
+
+.razorpay p {
+  font-size: 12px;
+  margin: 12px 0;
+}
+
+.razorpay a {
+  color: var(--razorpay-light-blue);
+}
+
+.razorpay-report {
+  display: flex;
+  gap: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Form */
+.form {
+  background-color: white;
+  height: max-content;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.form-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  position: relative;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.form-section p {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+input {
+  width: 260px;
+  height: 35px;
+  padding-left: 8px;
+}
+
+.form-select {
+  width: 260px;
+  height: 35px;
+  padding: 10px;
+}
+
+.payment-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.payment-btn img {
+  width: 380px;
+}
+
+.payment-btn button {
+  background-color: var(--razorpay-light-blue);
+  padding: 10px 25px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Toast Notification */
+#toastContainer {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+}
+
+.toast {
+  color: white;
+  text-align: center;
+  padding: 16px;
+  border-radius: 8px;
+  margin-top: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
