@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Mulish:wght@200;300;400;500;600;700&family=Raleway:wght@200;300;400;500;600;700&family=Roboto+Condensed:wght@300;400;700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wrapper {
+  overflow: hidden;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+:root {
+  --dark-blue: #2f353b;
+  --light-black: #41515b;
+  --dark-yellow: #df9926;
+  --white: #fff;
+  --grey: #aaaaaa;
+  --razorpay-dark-blue: #0d2366;
+  --razorpay-light-blue: #015ef4;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 1st navbar */
+.nav1 {
+  background-color: var(--dark-blue);
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 45px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-links li a {
+  color: var(--dark-yellow);
+}
+
+.nav-links li a:hover {
+  color: var(--white);
+  transition: color 300ms;
+}
+
+.social-logos {
+  display: flex;
+  gap: 30px;
+  color: var(--dark-yellow);
+}
+
+.fa-brands:hover {
+  color: var(--white);
+  transition: color 300ms;
+  cursor: pointer;
+}
+
+.clg-logos {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.dept-logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clg-desc {
+  color: var(--grey);
+  text-align: center;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 2;
+}
+
+/* 2nd navbar */
+.nav2 {
+  background-color: var(--light-black);
+}
+
+.nav2-list {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.nav2-list li {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  gap: 8px;
+  background-image: linear-gradient(#fff, #fff);
+  background-size: 100% 0;
+  background-repeat: no-repeat;
+  transition: background-size 0.4s;
+}
+
+.nav2-list li:hover {
+  background-size: 100% 100%;
+  color: black;
+  opacity: 0.95;
+}
+
+.nav2-list li:hover a {
+  color: var(--light-black);
+  transition: color 1s;
+}
+
+.nav2-list li:hover i {
+  color: var(--light-black);
+  transition: color 1s;
+}
+
+.nav2-list li a {
+  color: var(--dark-yellow);
+  list-style: none;
+  font-size: 15px;
+}
+
+.nav2-list li i {
+  font-size: 10px;
+  color: var(--dark-yellow);
+}
+
+.active {
+  background-color: var(--dark-yellow);
+}
+
