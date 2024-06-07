@@ -230,6 +230,233 @@
         </table>
       </section>
 
+      <!-- Payment Section -->
+      <section class="payment-section">
+        <div class="payment-content">
+          <div class="payment-section-left">
+            <div class="payment-title">
+              <div>
+                <img
+                  src="https://cdn.razorpay.com/logos/FpvFG2TAtyFs1t_large.png"
+                  alt="aiktc-logo"
+                />
+              </div>
+              <p>
+                ANJUMAN I ISLAMS KALSEKAR TECHNICAL CAMPUS SCHOOL OF ENGINEERING
+                AND TECHNOLOGY
+              </p>
+            </div>
+            <div class="payment-heading">
+              <h3>SCHOOL OF ENGINEERING & TECHNOLOGY</h3>
+            </div>
+            <div class="blue-line"></div>
+            <div class="payment-list">
+              <p>FEE PAYMENT FOR THE ACADEMIC YEAR 2011-12 TO 2023-24</p>
+              <p>Courses :</p>
+              <ol>
+                <li>Civil Engineering</li>
+                <li>Computer Engineering</li>
+                <li>Electrical Engineering</li>
+                <li>
+                  Electronics & Telecommunication / Electronics & Computer
+                  Science Engineering
+                </li>
+                <li>Mechanical Engineering</li>
+              </ol>
+              <div class="payment-new-course">
+                <p>Bachelor of Science (Information Technology)</p>
+                <a href="#">Show More</a>
+              </div>
+            </div>
+            <div class="payment-share">
+              <p class="payment-subheading">Share this on:</p>
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png"
+                alt="facebook-logo"
+              />
+              <img
+                src="https://www.iconpacks.net/icons/2/free-twitter-logo-icon-2429-thumb.png"
+                alt="twitter-logo"
+              />
+              <img
+                src="https://cdn.pixabay.com/photo/2021/05/22/11/38/whatsapp-6273368_1280.png"
+                alt="twitter-logo"
+              />
+            </div>
+            <div>
+              <p class="payment-subheading">Contact Us:</p>
+              <div class="payment-contact-content">
+                <div>
+                  <i class="fa-solid fa-envelope"></i>
+                  <a href="#">enaccounts@aiktc.ac.in</a>
+                </div>
+                <div>
+                  <i class="fa-solid fa-phone"></i>
+                  <a href="#">9821190774</a>
+                </div>
+              </div>
+            </div>
+            <div class="terms">
+              <p class="payment-subheading">Terms & Conditions:</p>
+              <div>
+                <p>
+                  Subject to realization in the account. <br />Transaction
+                  failure and any kind of technical error will be assisted by
+                  your bank.
+                </p>
+                <p>
+                  You agree to share information entered on this page with
+                  ANJUMAN I ISLAMS KALSEKAR TECHNICAL CAMPUS SCHOOL OF
+                  ENGINEERING AND TECHNOLOGY (owner of this page) and Razorpay,
+                  adhering to applicable laws.
+                </p>
+              </div>
+            </div>
+            <div class="razorpay">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/8/89/Razorpay_logo.svg"
+                alt="razorpay-logo"
+                width="100"
+                height="35"
+              />
+              <p>
+                Want to create page like this for your Business? Visit
+                <a href="#">Razorpay Payment Pages</a> to get started!
+              </p>
+              <div class="razorpay-report">
+                <i class="fa-solid fa-flag"></i>
+                <a href="">Report Page</a>
+              </div>
+            </div>
+          </div>
+          <div class="form">
+            <form>
+              <div>
+                <h3>Payment Details</h3>
+                <div class="blue-line" style="margin: 20px 0"></div>
+                <div class="form-section">
+                  <div class="form-label">
+                    <label for="amount">Amount</label>
+                  </div>
+                  <div class="form-input">
+                    <input
+                      onchange="update_amount()"
+                      required
+                      type="number"
+                      id="amount"
+                      placeholder="Enter Amount"
+                    />
+                  </div>
+                </div>
+
+                <div class="form-section">
+                  <div class="form-label">
+                    <label for="rollno">Roll Number</label>
+                  </div>
+                  <div class="form-input">
+                    <input required type="text" id="rollno" />
+                  </div>
+                </div>
+
+                <div class="form-section">
+                  <div class="form-label">
+                    <label for="name">Name of the Student</label>
+                  </div>
+                  <div class="form-input required">
+                    <input required type="name" id="name" />
+                    <p>Ex: Name & Roll No.</p>
+                  </div>
+                </div>
+
+                <div class="form-section">
+                  <div class="form-label">
+                    <label for="department">Department</label>
+                  </div>
+                  <div>
+                    <select
+                      required
+                      name="department"
+                      id="department"
+                      class="form-select"
+                    >
+                      <option value="none">None</option>
+                      <option value="civil">Civil Engineering</option>
+                      <option value="computer">Computer Engineering</option>
+                      <option value="electrical">Electrical Engineering</option>
+                      <option value="et/ec">ET/EC Engineering</option>
+                      <option value="bscIT">Bachelor of Science (IT)</option>
+                      <option value="aiml">
+                        Computer Science & Engineering (AIML)
+                      </option>
+                      <option value="ds">
+                        Computer Science & Engineering (DS)
+                      </option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-section">
+                  <div class="form-label">
+                    <label for="mobile">Mobile Number</label>
+                  </div>
+                  <div class="form-input">
+                    <input required type="number" id="mobile" />
+                  </div>
+                </div>
+
+                <div class="form-section">
+                  <div class="form-label">
+                    <label for="email">Email Id</label>
+                  </div>
+                  <div class="form-input">
+                    <input required type="email" id="email" />
+                    <p>Ex: 20ce60@aiktc.ac.in</p>
+                  </div>
+                </div>
+
+                <div class="form-section">
+                  <div class="form-label">
+                    <label for="feesFor">Fees For</label>
+                  </div>
+                  <div>
+                    <select
+                      required
+                      name="feesFor"
+                      id="feesFor"
+                      class="form-select"
+                    >
+                      <option value="none">None</option>
+                      <option value="tuition">Tuition Fees</option>
+                      <option value="atkt">Exam Fees ATKT</option>
+                      <option value="bonafide">Bonafide Certificate</option>
+                      <option value="transcript">Transcript</option>
+                      <option value="penalty">Penalty</option>
+                      <option value="others">Others</option>
+                      <option value="admission-form">Admission Form</option>
+                      <option value="reval-fee">Reval / Photocopy fees</option>
+                      <option value="id-card">Duplicate I-card fees</option>
+                      <option value="admission-cancellation">
+                        Admission Cancellation fees
+                      </option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="payment-btn">
+                <div class="payment-options">
+                  <img
+                    src="https://cdn.razorpay.com/static/assets/pay_methods_branding.png"
+                  />
+                </div>
+                <button class="payment_submit_btn">Pay ₹ 0.00</button>
+              </div>
+              <div id="toastContainer"></div>
+            </form>
+          </div>
+        </div>
+      </section>
+
     </div>
     <script src="index.js"></script>
   </body>
