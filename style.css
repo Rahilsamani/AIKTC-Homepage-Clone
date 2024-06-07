@@ -250,3 +250,53 @@ a {
   cursor: pointer;
 }
 
+/* notice section */
+.notice-section {
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.notice-section p {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: var(--dark-blue);
+  margin-bottom: 20px;
+}
+
+.notice-table {
+  width: 90%;
+  border-collapse: collapse;
+}
+
+.notice-table thead {
+  background-color: var(--light-black);
+  color: var(--white);
+}
+
+.notice-table th {
+  padding: 20px;
+  border: 1px solid white;
+}
+
+.notice-table td {
+  padding: 20px 15px;
+  border: 1px solid #a9a9a9;
+  text-align: center;
+  color: var(--dark-blue);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.notice-table button {
+  background-color: var(--light-black);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 15px;
+}
+
